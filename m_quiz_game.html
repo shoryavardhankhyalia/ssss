@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>The Math Quiz Game!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+
+<script src="quiz_game_login.js"></script>
+</head>
+<body>
+
+<center>
+	<h1 style="color: white;" >The Math Quiz Game!</h1>
+	<div style="background-image: linear-gradient(to right top, #ff0404, #34d925, #1882c1, #dd1919,#5ff133 ); " class="col-lg-6 col-sm-12 col-xs-12 login_div1">
+		<h3 style="font-weight: bold; color: white;" >Player 1 login for the game</h3>
+		<label style="color: white;" >User Name:</label>
+		<input type="text" id="player1_name_input" class="form-control" placeholder="player 1 name">
+		<br>
+	</div>
+	<br>
+	<div style="background-image: linear-gradient(to right top, #ff0404, #34d925, #1882c1, #dd1919,#5ff133 ); " class="col-lg-6 col-sm-12 col-xs-12 login_div1">
+		<h3 style="font-weight: bold; color: white;" >Player 2 login for the game</h3>
+		<label style="color: white;" >User Name:</label>
+		<input type="text" id="player2_name_input" class="form-control" placeholder="player 2 name">
+		<br>
+	</div>
+	<br>
+	<button style="width:30%;" class="btn btn-success" onclick="addUser()">Log in</button>
+</center>
+</body>
+</html>
